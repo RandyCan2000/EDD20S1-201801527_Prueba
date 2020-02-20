@@ -1,0 +1,24 @@
+digraph G{
+node [shape=plaintext]
+a [label=<<table border="0" cellborder="1" cellspacing="0">
+
+<tr>
+<td><b>ESTADOS</b></td>
+<td><b>{abecedario}</b></td>
+<td><b>"_"</b></td>
+<td><b>{conjnum}</b></td>
+<td><b>desigualdad</b></td>
+<td><b>{conjnum}</b></td>
+<td><b>" "</b></td>
+<td><b>"TRUE"</b></td>
+<td><b>"FALSE"</b></td>
+</tr>
+<tr>
+<td>,1,2,3</td>
+<td></td>
+<td>{abecedario}/,1,2,3//</td>
+<td>"_"/,1,2,3//</td>
+<td>{conjnum}/,3,4//</td>
+</tr>
+</table>>];
+}
